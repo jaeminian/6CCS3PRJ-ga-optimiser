@@ -4,7 +4,7 @@ This repository contains my final-year Individual Project (6CCS3PRJ, King’s Co
 I built an end-to-end Genetic Algorithm (GA) system to optimise parameters for a rule-based trading strategy, evaluated via historical backtesting using a risk-adjusted objective (Sharpe ratio).
 
 ## Quick links (for supervisors / recommenders)
-- **1-page technical summary (PDF):** `docs/technical_summary_6CCS3PRJ.pdf`
+- **2-page technical summary (PDF):** `docs/technical_summary_6CCS3PRJ.pdf`
 - **Dissertation (PDF):** `docs/dissertation.pdf` *(or provide an external link if not stored in this repo)*
 - **Optional recommender notes / sample phrasing:** `RECOMMENDER_NOTES.md`
 - **Data notes (datasets not included):** `data/README.md`
