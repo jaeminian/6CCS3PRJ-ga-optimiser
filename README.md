@@ -6,8 +6,6 @@ This document outlines the steps required to set up the environment and run the 
 ## Environment Setup
 
 
-// 시작하는 방법
-// cd 로 들어가준다.
 
 1. Create a new Conda environment:
    ```bash
