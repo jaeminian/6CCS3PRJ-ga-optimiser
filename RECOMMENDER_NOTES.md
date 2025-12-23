@@ -1,4 +1,4 @@
-# Recommender Notes (Optional) — OMSCS Letter Guidance
+# Recommender Notes — OMSCS Letter Guidance
 
 Thank you again for supporting my Georgia Tech OMSCS application. Georgia Tech notes that the most helpful recommendation letters focus on **technical Computer Science abilities** with **specific examples** (problem → approach/skills → outcome), rather than general personal characteristics.
 
