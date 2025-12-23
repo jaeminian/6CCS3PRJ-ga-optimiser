@@ -1,4 +1,3 @@
-````markdown
 # 6CCS3PRJ Individual Project (KCL) — Genetic Algorithm Strategy Parameter Optimiser
 
 This repository contains my final-year Individual Project (6CCS3PRJ, King’s College London).  
@@ -16,24 +15,25 @@ I built an end-to-end Genetic Algorithm (GA) system to optimise parameters for a
 
 ## Project Setup Instructions
 
-This section outlines the steps required to set up the environment and run the project.
-
 ### Environment Setup
+
 1. Create a new Conda environment:
-   ```bash
-   conda create --name myenv python=3.9
-````
+
+    ```bash
+    conda create --name myenv python=3.9
+    ```
 
 2. Activate the created environment:
 
-   ```bash
-   conda activate myenv
-   ```
+    ```bash
+    conda activate myenv
+    ```
+
 3. Install required Python packages:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Configuration and Operation
 
@@ -41,31 +41,22 @@ This section outlines the steps required to set up the environment and run the p
 
 1. Run the dataset preparation script:
 
-   ```bash
-   python src/generate_dataset.py
-   ```
+    ```bash
+    python src/generate_dataset.py
+    ```
 
    You may customise the script if additional indicators or data fields are required.
 
 #### Strategy Modification
 
-1. Modify the trading strategy in:
-
-   * `src/strategy_operation.py` (under the `Strategy` subclass)
-2. Adjust the fitness function inside the backtesting routine in:
-
-   * `src/strategy_operation.py`
+1. Modify the trading strategy in `src/strategy_operation.py` under the `Strategy` subclass.
+2. Adjust the fitness function inside the backtesting routine in `src/strategy_operation.py`.
 
 #### Genetic Algorithm Optimisation
 
-1. Configure the inputs in `JMstrategy` in:
-
-   * `src/genetic_optimizer.py`
+1. Configure the inputs in `JMstrategy` in `src/genetic_optimizer.py`.
 2. Run the optimiser:
 
-   ```bash
-   python src/genetic_optimizer.py
-   ```
-
-```
-```
+    ```bash
+    python src/genetic_optimizer.py
+    ```
